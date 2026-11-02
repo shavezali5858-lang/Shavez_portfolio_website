@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import Resume from "../assets/images/shavez_ali new resume.pdf"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
 
       {/* Download Resume */}
       <a
-        href="/resume.pdf"
+        href={Resume}
         download
         className="hidden md:inline-flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white px-5 py-3 text-sm font-medium transition duration-300"
       >
