@@ -28,7 +28,7 @@ const projects = [
     ],
 
     github: "https://github.com/shavezali5858-lang/AI_ResumeAnalyzer",
-    live: "",
+    live: "https://ai-resume-analyzer-nx5g.onrender.com/",
     image: Resumeimage
   },
 
@@ -89,7 +89,7 @@ const projects = [
     ],
 
     github: "https://github.com/shavezali5858-lang/React_ExpenseTracker",
-    live: "",
+    live: "https://shavez-expensetracker.netlify.app/",
     image: ""
   }
 ];
